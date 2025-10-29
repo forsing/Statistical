@@ -118,9 +118,9 @@ print()
 """
 Prediction of Ball 1 is [9.999869050876402] 
 Prediction of Ball 2 is [10.000000696496336] 
-Prediction of Ball 3 is [12.000071664060362] 
-Prediction of Ball 4 is [16.000132567052486] 
-Prediction of Ball 5 is [19.000210213115942] 
+Prediction of Ball 3 is [x.000071664060362] 
+Prediction of Ball 4 is [x.000132567052486] 
+Prediction of Ball 5 is [x.000210213115942] 
 Prediction of Ball 6 is [31.999976514048733] 
 Prediction of Ball 7 is [29.000159474567052] 
 """
@@ -135,7 +135,7 @@ print(f"Sum is good!") if S >= 120 and S <= 190 else print(f"Sum of prediction i
 print()
 
 """
-Predicted Numbers: [10, 10, 12, 16, 19, 29, 32]
+Predicted Numbers: [10, 10, x, x, x, 29, 32]
 
 Sum of numbers: 128.00042018021733
 Sum is good!
