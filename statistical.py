@@ -3,8 +3,13 @@
 
 from __future__ import absolute_import, division, print_function, unicode_literals
 
-# Statistical Lotto/Lottery Prediction 7/39
-# GradientBoostingRegressor
+"""
+Statistical Lotto/Lottery Prediction 
+GradientBoostingRegressor
+
+svih 4502 izvlacenja Loto 7/39 u Srbiji
+30.07.1985.- 28.10.2025.
+"""
 
 import numpy as np
 import pandas as pd
@@ -35,7 +40,7 @@ random.seed(SEED)
 algorithm_globals.random_seed = SEED
 
 # 1. Učitaj loto podatke
-df = pd.read_csv("/Users/milan/Desktop/GHQ/data/loto7h_4502_k85.csv")
+df = pd.read_csv("/data/loto7h_4502_k85.csv")
 
 
 
@@ -136,19 +141,6 @@ Sum of numbers: 128.00042018021733
 Sum is good!
 """
 
-
-
-
-
-"""
-
-source ~/Desktop/GHQ/qiskit_novi/bin/activate
-
-source ~/Desktop/GHQ/qiskit_stari/bin/activate
-
-deactivate
-
-"""
 
 
 
